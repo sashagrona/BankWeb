@@ -52,7 +52,7 @@ public class MainServlet extends javax.servlet.http.HttpServlet {
         } else if (convertAcc != null) {
             convert(request, response);
         } else if (to != null) {
-            send(request, response,pw);
+            send(request, response, pw);
         } else if (acc != null) {
             refill(request, response);
         } else if (currency == null) {
@@ -96,7 +96,7 @@ public class MainServlet extends javax.servlet.http.HttpServlet {
         }
     }
 
-    public void send(HttpServletRequest request, HttpServletResponse response,PrintWriter pw) {
+    public void send(HttpServletRequest request, HttpServletResponse response, PrintWriter pw) {
         String from = request.getParameter("from");
         String to = request.getParameter("to");
         String m = request.getParameter("money");
@@ -108,21 +108,11 @@ public class MainServlet extends javax.servlet.http.HttpServlet {
         BigDecimal money = BigDecimal.valueOf(mon).setScale(2, BigDecimal.ROUND_HALF_UP);
         Transaction transaction = new Transaction(accountFrom, accountTo, money, convertion.getRate(curr));
         transactionDAOImp.doTransact(transaction);
-        if(accountFrom.getMoney().compareTo(convertion.doConvert(accountFrom.getRate(),transaction.getMoney(),currency,rateDao))<0){
-            pw.write("You don't have enough money on this account");
-            try {
-                throw new Exception();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-
-        }else {
-            transactionDAOImp.add(transaction);
-            try {
-                response.sendRedirect("/options.jsp");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        transactionDAOImp.add(transaction);
+        try {
+            response.sendRedirect("/options.jsp");
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
