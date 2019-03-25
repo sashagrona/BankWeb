@@ -7,66 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf05501-866a-431f-8773-1d8f546f84f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/net/bigmir/servlets/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/net/bigmir/servlets/MainServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/DBBankWeb.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/META-INF/DBBankWeb.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/abstractDao/BankDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/daoImp/AccountDAOImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/daoImp/ExchangeRateDAOImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/daoImp/TransactionDAOImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/daoImp/UserDAOImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/deprecateTest/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/fixer/Fixer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/fixer/Rates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/model/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/model/ExchangeRate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/model/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/servlets/MainServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/net/bigmir/utils/Convertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/webapp/account.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/webapp/cabinet.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/webapp/convert.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/webapp/getmoney.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/webapp/myaccounts.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/webapp/options.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/webapp/refill.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/webapp/send.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/classes/webapp/transact.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DBBankWeb/WEB-INF/lib/bootstrap-5.5.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DBBankWeb.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/abstractDao/BankDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/daoImp/AccountDAOImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/daoImp/ExchangeRateDAOImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/daoImp/TransactionDAOImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/daoImp/UserDAOImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/deprecateTest/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/fixer/Fixer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/fixer/Rates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/model/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/model/ExchangeRate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/model/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/servlets/MainServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bigmir/utils/Convertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/account.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/cabinet.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/convert.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/getmoney.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/myaccounts.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/options.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/refill.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/send.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapp/transact.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,7 +22,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="812">
               <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
             </state>
           </provider>
@@ -517,7 +458,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="173" />
     <option name="y" value="87" />
     <option name="width" value="1721" />
@@ -790,15 +731,15 @@
       <workItem from="1553500391563" duration="127000" />
       <workItem from="1553524058181" duration="1054000" />
       <workItem from="1553525324849" duration="168000" />
-      <workItem from="1553525843728" duration="1324000" />
+      <workItem from="1553525843728" duration="1921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35859000" />
+    <option name="totallyTimeSpent" value="36456000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1853" height="1053" extended-state="7" />
+    <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83463544" visible="true" weight="0.2418373" />
@@ -1305,7 +1246,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
+        <state relative-caret-position="812">
           <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
         </state>
       </provider>
