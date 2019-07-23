@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf05501-866a-431f-8773-1d8f546f84f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBBankWeb.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,331 +20,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/abstractDao/BankDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+            <state relative-caret-position="228">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://MAVEN/net.bigmir:DBBankWeb:1.0-SNAPSHOT">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>MAVEN</ID>
-              <OriginalElement>net.bigmir:DBBankWeb:1.0-SNAPSHOT</OriginalElement>
-              <nodes>
-                <node x="607.4961256692025" y="485.0">net.bigmir:DBBankWeb:1.0-SNAPSHOT</node>
-                <node x="1977.429945054945" y="394.0">junit:junit:jar:4.11</node>
-                <node x="1944.429945054945" y="303.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-                <node x="863.3615102845871" y="394.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final</node>
-                <node x="320.5326970038509" y="81.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
-                <node x="898.8615102845871" y="303.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final</node>
-                <node x="800.2820512820513" y="172.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.javassist:javassist:jar:3.24.0-GA</node>
-                <node x="1163.8942307692307" y="172.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/antlr:antlr:jar:2.7.7</node>
-                <node x="911.2820512820513" y="172.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.jboss:jandex:jar:2.0.5.Final</node>
-                <node x="680.2820512820513" y="172.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/com.fasterxml:classmate:jar:1.3.4</node>
-                <node x="796.0967995679533" y="0.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/javax.activation:javax.activation-api:jar:1.2.0</node>
-                <node x="1303.111510284587" y="81.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/javax.xml.bind:jaxb-api:jar:2.3.1</node>
-                <node x="1009.2820512820513" y="172.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1</node>
-                <node x="1217.111510284587" y="81.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1/org.glassfish.jaxb:txw2:jar:2.3.1</node>
-                <node x="711.3615102845871" y="81.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1/com.sun.istack:istack-commons-runtime:jar:3.0.7</node>
-                <node x="986.1115102845871" y="81.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1/org.jvnet.staxex:stax-ex:jar:1.8</node>
-                <node x="1087.111510284587" y="81.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1/com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15</node>
-                <node x="555.785902132056" y="172.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.dom4j:dom4j:jar:2.1.1</node>
-                <node x="277.785902132056" y="172.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final</node>
-                <node x="1639.111510284587" y="172.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/javax.persistence:javax.persistence-api:jar:2.2</node>
-                <node x="1835.111510284587" y="172.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/net.bytebuddy:byte-buddy:jar:1.9.5</node>
-                <node x="1378.111510284587" y="172.0">org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final</node>
-                <node x="73.0" y="394.0">mysql:mysql-connector-java:jar:8.0.11</node>
-                <node x="98.5" y="303.0">mysql:mysql-connector-java:jar:8.0.11/com.google.protobuf:protobuf-java:jar:2.6.0</node>
-                <node x="556.4961256692025" y="394.0">com.google.code.gson:gson:jar:2.8.0</node>
-                <node x="1437.986510284587" y="394.0">javax.servlet:servlet-api:jar:8.5.37</node>
-                <node x="0.0" y="394.0">javax.servlet:jstl:jar:1.2</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final">
-                  <point x="-87.42857142857133" y="-15.5" />
-                  <point x="877.9329388560158" y="374.0" />
-                  <point x="267.285902132056" y="374.0" />
-                  <point x="267.285902132056" y="152.0" />
-                  <point x="341.36603033718416" y="152.0" />
-                  <point x="-41.66666666666674" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final">
-                  <point x="40.923076923076906" y="-15.5" />
-                  <point x="1006.284587207664" y="263.0" />
-                  <point x="1438.361510284587" y="263.0" />
-                  <point x="-60.25" y="15.5" />
-                </edge>
-                <edge source="net.bigmir:DBBankWeb:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:8.0.11">
-                  <point x="-29.75" y="-15.5" />
-                  <point x="637.2461256692025" y="455.0" />
-                  <point x="162.0" y="455.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="net.bigmir:DBBankWeb:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
-                  <point x="49.58333333333337" y="-15.5" />
-                  <point x="716.5794590025358" y="465.0" />
-                  <point x="2009.429945054945" y="465.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final">
-                  <point x="0.0" y="-15.5" />
-                  <point x="406.785902132056" y="152.0" />
-                  <point x="383.0326970038509" y="152.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
-                  <point x="0.0" y="-15.5" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/javax.xml.bind:jaxb-api:jar:2.3.1">
-                  <point x="30.692307692307622" y="-15.5" />
-                  <point x="996.0538179768947" y="253.0" />
-                  <point x="1367.611510284587" y="253.0" />
-                  <point x="21.5" y="15.5" />
-                </edge>
-                <edge source="net.bigmir:DBBankWeb:1.0-SNAPSHOT" target="com.google.code.gson:gson:jar:2.8.0">
-                  <point x="-9.916666666666629" y="-15.5" />
-                  <point x="657.0794590025358" y="445.0" />
-                  <point x="589.4961256692025" y="445.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1/org.glassfish.jaxb:txw2:jar:2.3.1">
-                  <point x="30.0" y="-15.5" />
-                  <point x="1099.2820512820513" y="142.0" />
-                  <point x="1250.111510284587" y="142.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/javax.xml.bind:jaxb-api:jar:2.3.1" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/javax.activation:javax.activation-api:jar:1.2.0">
-                  <point x="0.0" y="-15.5" />
-                  <point x="1346.111510284587" y="61.0" />
-                  <point x="934.4301329012866" y="61.0" />
-                  <point x="55.33333333333326" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/javax.persistence:javax.persistence-api:jar:2.2">
-                  <point x="51.15384615384619" y="-15.5" />
-                  <point x="1016.5153564384333" y="273.0" />
-                  <point x="1683.111510284587" y="273.0" />
-                  <point x="-44.0" y="15.5" />
-                </edge>
-                <edge source="net.bigmir:DBBankWeb:1.0-SNAPSHOT" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final">
-                  <point x="9.916666666666629" y="-15.5" />
-                  <point x="676.9127923358691" y="445.0" />
-                  <point x="965.3615102845871" y="445.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final">
-                  <point x="-61.38461538461547" y="-15.5" />
-                  <point x="903.9768948999716" y="283.0" />
-                  <point x="471.285902132056" y="283.0" />
-                  <point x="64.5" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final">
-                  <point x="-58.28571428571422" y="-15.5" />
-                  <point x="907.0757959988729" y="364.0" />
-                  <point x="342.285902132056" y="364.0" />
-                  <point x="-64.5" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/javax.persistence:javax.persistence-api:jar:2.2">
-                  <point x="58.28571428571422" y="-15.5" />
-                  <point x="1023.6472245703013" y="364.0" />
-                  <point x="1771.111510284587" y="364.0" />
-                  <point x="44.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.javassist:javassist:jar:3.24.0-GA">
-                  <point x="-10.230769230769283" y="-15.5" />
-                  <point x="955.1307410538178" y="233.0" />
-                  <point x="845.7820512820513" y="233.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/antlr:antlr:jar:2.7.7">
-                  <point x="20.461538461538566" y="-15.5" />
-                  <point x="985.8230487461257" y="243.0" />
-                  <point x="1196.3942307692307" y="243.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1/com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15">
-                  <point x="10.0" y="-15.5" />
-                  <point x="1079.2820512820513" y="132.0" />
-                  <point x="1142.111510284587" y="132.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final">
-                  <point x="0.0" y="-15.5" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="net.bigmir:DBBankWeb:1.0-SNAPSHOT" target="javax.servlet:jstl:jar:1.2">
-                  <point x="-49.58333333333337" y="-15.5" />
-                  <point x="617.4127923358691" y="465.0" />
-                  <point x="26.5" y="465.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final">
-                  <point x="-40.923076923076906" y="-15.5" />
-                  <point x="924.4384333615102" y="263.0" />
-                  <point x="641.285902132056" y="263.0" />
-                  <point x="641.285902132056" y="152.0" />
-                  <point x="424.69936367051764" y="152.0" />
-                  <point x="41.66666666666674" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final">
-                  <point x="29.14285714285711" y="-15.5" />
-                  <point x="994.5043674274442" y="354.0" />
-                  <point x="1558.861510284587" y="354.0" />
-                  <point x="60.25" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.jboss:jandex:jar:2.0.5.Final">
-                  <point x="0.0" y="-15.5" />
-                  <point x="965.3615102845871" y="223.0" />
-                  <point x="950.2820512820513" y="223.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/javax.activation:javax.activation-api:jar:1.2.0">
-                  <point x="-30.692307692307622" y="-15.5" />
-                  <point x="934.6692025922795" y="253.0" />
-                  <point x="662.0679534141073" y="253.0" />
-                  <point x="662.0679534141073" y="51.0" />
-                  <point x="823.7634662346201" y="51.0" />
-                  <point x="-55.33333333333326" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.dom4j:dom4j:jar:2.1.1">
-                  <point x="-51.15384615384619" y="-15.5" />
-                  <point x="914.2076641307409" y="273.0" />
-                  <point x="612.035902132056" y="273.0" />
-                  <point x="18.75" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1/org.jvnet.staxex:stax-ex:jar:1.8">
-                  <point x="-10.0" y="-15.5" />
-                  <point x="1059.2820512820513" y="132.0" />
-                  <point x="1026.611510284587" y="132.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1/com.sun.istack:istack-commons-runtime:jar:3.0.7">
-                  <point x="-30.0" y="-15.5" />
-                  <point x="1039.2820512820513" y="142.0" />
-                  <point x="812.3615102845871" y="142.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/com.fasterxml:classmate:jar:1.3.4">
-                  <point x="-20.461538461538566" y="-15.5" />
-                  <point x="944.8999718230485" y="243.0" />
-                  <point x="730.2820512820513" y="243.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1">
-                  <point x="10.230769230769283" y="-15.5" />
-                  <point x="975.5922795153564" y="233.0" />
-                  <point x="1069.2820512820513" y="233.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/javax.activation:javax.activation-api:jar:1.2.0">
-                  <point x="-50.0" y="-15.5" />
-                  <point x="1019.2820512820513" y="152.0" />
-                  <point x="700.8615102845871" y="152.0" />
-                  <point x="700.8615102845871" y="61.0" />
-                  <point x="879.0967995679533" y="61.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/net.bytebuddy:byte-buddy:jar:1.9.5">
-                  <point x="61.38461538461547" y="-15.5" />
-                  <point x="1026.7461256692027" y="283.0" />
-                  <point x="1862.361510284587" y="283.0" />
-                  <point x="-27.25" y="15.5" />
-                </edge>
-                <edge source="net.bigmir:DBBankWeb:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:8.5.37">
-                  <point x="29.75" y="-15.5" />
-                  <point x="696.7461256692025" y="455.0" />
-                  <point x="1489.986510284587" y="455.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="mysql:mysql-connector-java:jar:8.0.11" target="mysql:mysql-connector-java:jar:8.0.11/com.google.protobuf:protobuf-java:jar:2.6.0">
-                  <point x="0.0" y="-15.5" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/net.bytebuddy:byte-buddy:jar:1.9.5">
-                  <point x="87.42857142857133" y="-15.5" />
-                  <point x="1052.7900817131585" y="374.0" />
-                  <point x="1916.861510284587" y="374.0" />
-                  <point x="27.25" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.dom4j:dom4j:jar:2.1.1">
-                  <point x="-29.14285714285711" y="-15.5" />
-                  <point x="936.21865314173" y="354.0" />
-                  <point x="574.535902132056" y="354.0" />
-                  <point x="-18.75" y="15.5" />
-                </edge>
-                <edge source="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1" target="org.hibernate:hibernate-entitymanager:jar:5.4.1.Final/org.hibernate:hibernate-core:jar:5.4.1.Final/javax.xml.bind:jaxb-api:jar:2.3.1">
-                  <point x="50.0" y="-15.5" />
-                  <point x="1119.2820512820513" y="152.0" />
-                  <point x="1324.611510284587" y="152.0" />
-                  <point x="-21.5" y="15.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.36945107398568017" x="639.6124031007753" y="-143.94767441860472" />
-              <SelectedNodes>
-                <node>javax.servlet:jstl:jar:1.2</node>
-              </SelectedNodes>
-              <Categories />
-              <VISIBILITY>All</VISIBILITY>
+        <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/daoImp/AccountDAOImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#518#519#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/getmoney.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/send.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/refill.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="102" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/daoImp/ExchangeRateDAOImp.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/daoImp/TransactionDAOImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
+            <state relative-caret-position="760">
               <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/myaccounts.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/model/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+            <state relative-caret-position="209">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/options.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/model/ExchangeRate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="703">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+              <folding>
+                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1147#1148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/model/Transaction.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding>
+                <element signature="e#1561#1562#0" expanded="true" />
+                <element signature="e#1604#1605#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -351,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/transact.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="247">
               <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
             </state>
           </provider>
@@ -360,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="380">
               <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
             </state>
           </provider>
@@ -459,10 +206,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="173" />
-    <option name="y" value="87" />
-    <option name="width" value="1721" />
-    <option name="height" value="927" />
+    <option name="x" value="184" />
+    <option name="y" value="27" />
+    <option name="width" value="1489" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -470,123 +217,81 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="BankWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankWeb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="BankWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankWeb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="BankWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankWeb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
               <item name="bigmir" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="BankWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankWeb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
               <item name="bigmir" type="462c0819:PsiDirectoryNode" />
               <item name="abstractDao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="BankWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankWeb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
               <item name="bigmir" type="462c0819:PsiDirectoryNode" />
               <item name="daoImp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="BankWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankWeb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="bigmir" type="462c0819:PsiDirectoryNode" />
-              <item name="deprecateTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="bigmir" type="462c0819:PsiDirectoryNode" />
-              <item name="fixer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
               <item name="bigmir" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="bigmir" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="bigmir" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="BankWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankWeb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBBankWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBBankWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552904072014" />
@@ -732,17 +437,17 @@
       <workItem from="1553524058181" duration="1054000" />
       <workItem from="1553525324849" duration="168000" />
       <workItem from="1553525843728" duration="1921000" />
+      <workItem from="1557407840060" duration="251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36456000" />
+    <option name="totallyTimeSpent" value="36707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83463544" visible="true" weight="0.2418373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8329718" visible="true" weight="0.24156992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -750,7 +455,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Web" order="8" sideWeight="0.16536458" side_tool="true" visible="true" weight="0.2418373" />
+      <window_info id="Web" order="8" sideWeight="0.1670282" side_tool="true" visible="true" weight="0.24156992" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16248637" />
@@ -788,9 +493,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/fixer/Rates.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/model/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/daoImp/UserDAOImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -822,64 +524,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/account.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/model/ExchangeRate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-          <folding>
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/daoImp/AccountDAOImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#518#519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/model/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/abstractDao/BankDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/utils/Convertion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="e#1561#1562#0" expanded="true" />
-            <element signature="e#1604#1605#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,62 +577,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/getmoney.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/send.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/refill.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="102" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/daoImp/TransactionDAOImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/myaccounts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/options.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/transact.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1235,11 +835,12 @@
               <point x="-21.5" y="15.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.36945107398568017" x="639.6124031007753" y="-143.94767441860472" />
+          <settings layout="Hierarchic Group" zoom="0.36945107398568017" x="640.0" y="-144.0" />
           <SelectedNodes>
             <node>javax.servlet:jstl:jar:1.2</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
@@ -1247,7 +848,115 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="812">
-          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/getmoney.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/send.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/refill.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="102" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/myaccounts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/options.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/transact.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/abstractDao/BankDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/daoImp/AccountDAOImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/daoImp/ExchangeRateDAOImp.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/daoImp/TransactionDAOImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/model/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/model/ExchangeRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/model/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/net/bigmir/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
